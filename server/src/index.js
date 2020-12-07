@@ -19,4 +19,4 @@ db.once("open", () => console.log("Connected to DB"));
 
 server.applyMiddleware({ app });
 
-app.listen({ port: 4000 }, () => console.log("Server is running at"));
+app.listen({ port: 4000 }, () => console.log("Server is running at port 4000"));
